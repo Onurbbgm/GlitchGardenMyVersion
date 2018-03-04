@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Defender : MonoBehaviour {
 
+
+
 	// Use this for initialization
 	void Start () {
 		
@@ -14,9 +16,5 @@ public class Defender : MonoBehaviour {
 		
 	}
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log(collision + "triger enter");
-    }
-
+    
 }
