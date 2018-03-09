@@ -318,12 +318,14 @@
     <Compile Include="Assets\Scripts\Attackers\Attacker.cs" />
     <Compile Include="Assets\Scripts\Attackers\FoxBehavior.cs" />
     <Compile Include="Assets\Scripts\Attackers\LizardBehavior.cs" />
+    <Compile Include="Assets\Scripts\Button.cs" />
     <Compile Include="Assets\Scripts\Defenders\CactusBehavior.cs" />
     <Compile Include="Assets\Scripts\Defenders\Defender.cs" />
     <Compile Include="Assets\Scripts\Defenders\GnomeBehavior.cs" />
     <Compile Include="Assets\Scripts\Defenders\ShooterBehavior.cs" />
     <Compile Include="Assets\Scripts\Defenders\StarBehavior.cs" />
     <Compile Include="Assets\Scripts\Defenders\StoneBehavior.cs" />
+    <Compile Include="Assets\Scripts\DefenderSpawner.cs" />
     <Compile Include="Assets\Scripts\FadeIn.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />

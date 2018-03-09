@@ -19,7 +19,7 @@ public class Health : MonoBehaviour {
     public void DealDamage(float damage)
     {
         health -= damage;
-        if(health < 0)
+        if(health <= 0)
         {
             //Optionally trigger animation
             DestroyObject();
