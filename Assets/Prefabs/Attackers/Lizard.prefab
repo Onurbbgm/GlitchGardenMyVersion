@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 114679555636513312}
   m_Layer: 0
   m_Name: Lizard
-  m_TagString: Untagged
+  m_TagString: destroyOnWin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,6 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff31584c2bb207d498329718b3792063, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  seenEverySeconds: 5
 --- !u!212 &212455590430156164
 SpriteRenderer:
   m_ObjectHideFlags: 1

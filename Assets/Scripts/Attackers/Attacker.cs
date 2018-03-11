@@ -6,7 +6,9 @@ using UnityEngine;
 [RequireComponent (typeof(Rigidbody2D))]
 public class Attacker : MonoBehaviour {
 
-  //  [Range (-1f,1.5f)]
+    [Tooltip("Average number of seconds between appearances")]
+    public float seenEverySeconds;
+    //  [Range (-1f,1.5f)]
     private float currentSpeed;
     private GameObject currentTarget;
     private Animator anim;
@@ -58,4 +60,7 @@ public class Attacker : MonoBehaviour {
     {
         currentTarget = obj;
     }
+
+    
+
 }

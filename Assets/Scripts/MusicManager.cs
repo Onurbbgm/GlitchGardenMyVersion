@@ -20,6 +20,7 @@ public class MusicManager : MonoBehaviour {
         audioSource.clip = levelMusicChangeArray[0];
         audioSource.loop = true;
         audioSource.Play();
+        audioSource.volume = PlayerPrefsManager.GetMasterVolume();
     }
 
     public void ChangeVolume(float volume)

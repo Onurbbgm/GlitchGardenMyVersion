@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 114552490590054818}
   m_Layer: 0
   m_Name: Gnome
-  m_TagString: Untagged
+  m_TagString: destroyOnWin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,6 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 261114d7b2d87da44996af6b73215cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starCost: 30
 --- !u!114 &114552490590054818
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -169,7 +170,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 1946846466627844, guid: 1a7f5774ba75a37449e53d88e64c6137, type: 2}
-  projectileParent: {fileID: 0}
   gun: {fileID: 1707508435388570}
 --- !u!114 &114761173838704728
 MonoBehaviour:

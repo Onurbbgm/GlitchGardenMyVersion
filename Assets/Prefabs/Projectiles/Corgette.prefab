@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 95118356509583534}
   m_Layer: 0
   m_Name: Corgette
-  m_TagString: Untagged
+  m_TagString: destroyOnWin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

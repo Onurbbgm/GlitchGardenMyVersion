@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 114743856358543974}
   m_Layer: 0
   m_Name: Cactus
-  m_TagString: Untagged
+  m_TagString: destroyOnWin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170,7 +170,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 1666901341367738, guid: eb0811acc96772f44bcc3944ae8adca8, type: 2}
-  projectileParent: {fileID: 0}
   gun: {fileID: 1850277584346416}
 --- !u!114 &114811895869060562
 MonoBehaviour:
@@ -183,6 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 261114d7b2d87da44996af6b73215cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starCost: 10
 --- !u!114 &114897826563863370
 MonoBehaviour:
   m_ObjectHideFlags: 1

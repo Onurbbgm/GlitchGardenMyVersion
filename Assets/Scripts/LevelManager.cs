@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
-    public float autoLoadNextLevelAfter;
+    public float autoLoadNextLevelAfter = 3f;
 
     private void Start()
     {
